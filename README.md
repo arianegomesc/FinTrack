@@ -97,4 +97,5 @@ java -cp out fintrack.Main
 **Ariane Gomes Cunha**  
 Capacitação Java — iREDE  
 [![GitHub](https://img.shields.io/badge/GitHub-arianegomesc-181717?style=flat&logo=github)](https://github.com/arianegomesc)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ariane--gomesc-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/ariane-gomesc)
 
