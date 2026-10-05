@@ -6,8 +6,8 @@
 
 ## 📋 Descrição
 
-O **FinTrack** é um sistema de controle de finanças pessoais executado via terminal (console).  
-Permite ao usuário cadastrar receitas e despesas, visualizar o extrato completo e acompanhar o saldo em tempo real.
+O **FinTrack** possui uma versão console e uma interface gráfica JavaFX. Permite cadastrar
+receitas e despesas, visualizar o extrato completo, acompanhar o saldo e remover transações.
 
 ---
 
@@ -68,27 +68,28 @@ FinTrack/
 ## ▶️ Como Executar
 
 ### Pré-requisitos
-- JDK 17 ou superior instalado
-- Terminal ou IDE com suporte a Java
+- JDK 25 e Maven instalados
 
 ### Passos
 
 ```bash
-# 1. Clone o repositório
-git clone https://github.com/arianegomesc/FinTrack.git
+# Interface JavaFX (o SQLite é criado em fintrack.db)
+mvn javafx:run
 
-# 2. Entre na pasta do projeto
-cd FinTrack
+# Versão console
+mvn package
+java -cp target/classes fintrack.Main
 
-# 3. Crie a pasta de saída
-mkdir out
-
-# 4. Compile o projeto
-javac -d out src/fintrack/model/*.java src/fintrack/exception/*.java src/fintrack/controller/*.java src/fintrack/view/*.java src/fintrack/Main.java
-
-# 5. Execute
-java -cp out fintrack.Main
+# Testes unitários, incluindo o DAO em SQLite em memória
+mvn test
 ```
+
+### Estrutura adicional
+
+- `RepositorioGenerico<T, ID>` define as operações reutilizáveis de persistência.
+- `Conexao` centraliza a conexão SQLite e a criação da tabela `transacoes`.
+- `TransacaoDAO` implementa o CRUD com `PreparedStatement` e `ResultSet`.
+- `FinApp`, `main.fxml` e `style.css` compõem a interface JavaFX.
 
 ---
 
@@ -98,4 +99,3 @@ java -cp out fintrack.Main
 Capacitação Java — iREDE  
 [![GitHub](https://img.shields.io/badge/GitHub-arianegomesc-181717?style=flat&logo=github)](https://github.com/arianegomesc)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ariane--gomesc-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/ariane-gomesc)
-
