@@ -29,4 +29,15 @@ class FinanceiroControllerTest {
         controller.remover(transacao.getId());
         assertTrue(controller.listarTodas().isEmpty());
     }
+
+    @Test
+    void atualizaTransacaoExistente() throws Exception {
+        FinanceiroController controller = new FinanceiroController();
+        var transacao = controller.cadastrar("Freelance", 500, TipoTransacao.RECEITA);
+        controller.atualizar(transacao.getId(), "Freelance Java", 650, TipoTransacao.RECEITA);
+
+        var atualizada = controller.listarTodas().get(0);
+        assertEquals("Freelance Java", atualizada.getDescricao());
+        assertEquals(650.0, atualizada.getValor());
+    }
 }

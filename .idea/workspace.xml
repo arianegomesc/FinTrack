@@ -5,23 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7dc49dc-97ee-4378-9cac-e0e5214efa2c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fintrack/FinApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fintrack/FinApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/fintrack/FinApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/FinApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fintrack.controller.FinanceiroControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fintrack.dao.TransacaoDAOTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fintrack.controller.FinanceiroControllerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fintrack.dao.TransacaoDAOTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fintrack/controller/FinanceiroControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fintrack/dao/TransacaoDAOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/controller/FinanceiroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/controller/FinanceiroController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/dao/TransacaoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/dao/TransacaoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/db/Conexao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/db/Conexao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/exception/DescricaoInvalidaException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/exception/DescricaoInvalidaException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/exception/TransacaoNaoEncontradaException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/exception/TransacaoNaoEncontradaException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/exception/ValorInvalidoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/exception/ValorInvalidoException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/model/TipoTransacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/model/TipoTransacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/model/Transacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/model/Transacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/repository/RepositorioGenerico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/repository/RepositorioGenerico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/view/ConsoleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/view/ConsoleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/view/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fintrack/view/MainController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="44" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,61 +39,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.8277262143313777" />
-      <entry key="MS500" value="3.9942601684335695" />
-      <entry key="S2" value="5.919783983611117" />
-      <entry key="S5" value="6.53070729957022" />
-      <entry key="S10" value="6.758611704821239" />
-      <entry key="S30" value="6.917985006446726" />
-      <entry key="S60" value="6.960258863308399" />
-      <entry key="M2" value="7.2280816562880394" />
-      <entry key="M5" value="14.30920632204374" />
-      <entry key="M10" value="36.32236734504894" />
-      <entry key="M15" value="56.51743496301934" />
-      <entry key="M30" value="93.62251202644632" />
-      <entry key="H1" value="123.11031219958691" />
-      <entry key="H2" value="141.87091288659718" />
-      <entry key="H4" value="152.47663430277547" />
-      <entry key="D1" value="162.01222014549947" />
-      <entry key="W1" value="163.7143376280181" />
+      <entry key="MS100" value="0.0037655836472465795" />
+      <entry key="MS500" value="0.7285133632084794" />
+      <entry key="S2" value="4.41162106170146" />
+      <entry key="S5" value="6.724855702798981" />
+      <entry key="S10" value="7.771878283077974" />
+      <entry key="S30" value="8.56856178991906" />
+      <entry key="S60" value="8.782823827822227" />
+      <entry key="M2" value="9.13600618790317" />
+      <entry key="M5" value="16.241520550239514" />
+      <entry key="M10" value="38.2406547481721" />
+      <entry key="M15" value="58.43367432191833" />
+      <entry key="M30" value="95.55372114734926" />
+      <entry key="H1" value="125.06522155285901" />
+      <entry key="H2" value="143.8449649641179" />
+      <entry key="H4" value="154.46269851068502" />
+      <entry key="D1" value="164.0097533783408" />
+      <entry key="W1" value="165.71398155716162" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="4.144705108984418E-184" />
-      <entry key="S5" value="4.436060439206042E-74" />
-      <entry key="S10" value="2.1061957267087114E-37" />
-      <entry key="S30" value="5.94976175559835E-13" />
-      <entry key="S60" value="7.713469877816569E-7" />
-      <entry key="M2" value="8.782636208916172E-4" />
-      <entry key="M5" value="0.05990319100210737" />
-      <entry key="M10" value="0.24475128396416515" />
-      <entry key="M15" value="0.39127609832252475" />
-      <entry key="M30" value="0.6255206617870627" />
-      <entry key="H1" value="0.7908986419175743" />
-      <entry key="H2" value="0.8893248236260887" />
-      <entry key="H4" value="0.9430402025502874" />
-      <entry key="D1" value="0.9902732200226477" />
-      <entry key="W1" value="0.9986046324164751" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000000005695" />
+      <entry key="S60" value="1.0000007547488556" />
+      <entry key="M2" value="1.0008687628304604" />
+      <entry key="M5" value="1.0596431390645116" />
+      <entry key="M10" value="1.244219448579575" />
+      <entry key="M15" value="1.3907090739612467" />
+      <entry key="M30" value="1.6250672555503503" />
+      <entry key="H1" value="1.790611950042719" />
+      <entry key="H2" value="1.8891636238863567" />
+      <entry key="H4" value="1.942954730560463" />
+      <entry key="D1" value="1.9902582606358097" />
+      <entry key="W1" value="1.9986024773676883" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.7227540455235744" />
-      <entry key="MS500" value="3.9007144124323294" />
-      <entry key="S2" value="5.883686686087384" />
-      <entry key="S5" value="6.514845015933709" />
-      <entry key="S10" value="6.750423353212632" />
-      <entry key="S30" value="6.915196402941111" />
-      <entry key="S60" value="6.958857590973387" />
-      <entry key="M2" value="7.228231312500708" />
-      <entry key="M5" value="14.368313482395049" />
-      <entry key="M10" value="36.56573351404783" />
-      <entry key="M15" value="56.90714799918005" />
-      <entry key="M30" value="94.24665183129798" />
-      <entry key="H1" value="123.90028005849929" />
-      <entry key="H2" value="142.7596955974676" />
-      <entry key="H4" value="153.41938173100604" />
-      <entry key="D1" value="163.00244131266143" />
-      <entry key="W1" value="164.71293474121893" />
+      <entry key="MS100" value="0.012506925989521082" />
+      <entry key="MS500" value="1.020095621647528" />
+      <entry key="S2" value="5.09158727238965" />
+      <entry key="S5" value="7.573577785688378" />
+      <entry key="S10" value="8.691516594600706" />
+      <entry key="S30" value="9.540630301433401" />
+      <entry key="S60" value="9.768709191812892" />
+      <entry key="M2" value="10.129753979954664" />
+      <entry key="M5" value="17.29780413955693" />
+      <entry key="M10" value="39.48220745471065" />
+      <entry key="M15" value="59.82196591858492" />
+      <entry key="M30" value="97.1769800788331" />
+      <entry key="H1" value="126.85468879128716" />
+      <entry key="H2" value="145.7334794325101" />
+      <entry key="H4" value="156.4053069209603" />
+      <entry key="D1" value="165.99995065787428" />
+      <entry key="W1" value="167.71257523974768" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -98,32 +105,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "appmod/java-upgrade-20261005182548",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/run/media/arianegomes/ARQUIVOS/Capacitação Java/FinTrack",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Capacitação Java/FinTrack&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="FinTrack" />
@@ -179,7 +186,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
       </set>
     </attachedChunks>
   </component>
@@ -193,6 +199,9 @@
       <workItem from="1781295412432" duration="5625000" />
       <workItem from="1781821372896" duration="130000" />
       <workItem from="1782252222064" duration="27000" />
+      <workItem from="1791325250314" duration="209000" />
+      <workItem from="1791325664151" duration="463000" />
+      <workItem from="1791326446281" duration="45000" />
     </task>
     <servers />
   </component>

@@ -39,6 +39,24 @@ public class TransacaoDAO implements RepositorioGenerico<Transacao, Integer> {
     }
 
     @Override
+    public void atualizar(Transacao transacao) {
+        String sql = "UPDATE transacoes SET descricao = ?, valor = ?, tipo = ?, data = ? WHERE id = ?";
+        try (Connection connection = Conexao.abrir();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setString(1, transacao.getDescricao());
+            statement.setDouble(2, transacao.getValor());
+            statement.setString(3, transacao.getTipo().name());
+            statement.setString(4, transacao.getData().toString());
+            statement.setInt(5, transacao.getId());
+            if (statement.executeUpdate() == 0) {
+                throw new IllegalArgumentException("Transação não encontrada: " + transacao.getId());
+            }
+        } catch (SQLException e) {
+            throw new IllegalStateException("Não foi possível atualizar a transação.", e);
+        }
+    }
+
+    @Override
     public void remover(Integer id) {
         try (Connection connection = Conexao.abrir();
              PreparedStatement statement = connection.prepareStatement("DELETE FROM transacoes WHERE id = ?")) {

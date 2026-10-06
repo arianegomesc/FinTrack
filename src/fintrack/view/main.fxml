@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="fintrack.view.MainController">
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="fintrack.view.MainController" stylesheets="@style.css">
     <top>
         <VBox styleClass="header" spacing="4">
             <Label text="FinTrack" styleClass="title"/>
@@ -10,25 +10,31 @@
     </top>
     <center>
         <VBox spacing="12" styleClass="content">
-            <HBox spacing="8">
+            <HBox spacing="8" alignment="CENTER_LEFT">
                 <TextField fx:id="descricao" promptText="Descrição" HBox.hgrow="ALWAYS"/>
                 <TextField fx:id="valor" promptText="Valor (R$)" prefWidth="110"/>
                 <DatePicker fx:id="data" prefWidth="130"/>
                 <ComboBox fx:id="tipo" prefWidth="110"/>
-                <Button text="Adicionar" onAction="#salvar" styleClass="primary-button"/>
+                <Button fx:id="btnSalvar" text="Adicionar" onAction="#salvar" styleClass="primary-button"/>
+                <Button fx:id="btnCancelar" text="Cancelar" onAction="#cancelarEdicao" visible="false" managed="false"/>
             </HBox>
             <TableView fx:id="tabela" VBox.vgrow="ALWAYS">
                 <columns>
                     <TableColumn fx:id="colunaData" text="Data" prefWidth="110"/>
-                    <TableColumn fx:id="colunaDescricao" text="Descrição" prefWidth="280" />
+                    <TableColumn fx:id="colunaDescricao" text="Descrição" prefWidth="280"/>
                     <TableColumn fx:id="colunaValor" text="Valor" prefWidth="120"/>
                     <TableColumn fx:id="colunaTipo" text="Tipo" prefWidth="120"/>
                 </columns>
             </TableView>
-            <HBox spacing="12" alignment="CENTER_RIGHT">
-                <Label fx:id="status" text=""/>
+            <HBox spacing="16" alignment="CENTER_RIGHT">
+                <Label fx:id="status" text="" HBox.hgrow="ALWAYS"/>
+                <Button text="Editar selecionada" onAction="#carregarParaEdicao"/>
                 <Button text="Remover selecionada" onAction="#remover"/>
-                <Label fx:id="saldo" styleClass="balance"/>
+                <HBox spacing="12" styleClass="summary-container" alignment="CENTER">
+                    <Label fx:id="totalReceitas" text="Receitas: R$ 0,00" styleClass="income-label"/>
+                    <Label fx:id="totalDespesas" text="Despesas: R$ 0,00" styleClass="expense-label"/>
+                    <Label fx:id="saldo" text="Saldo: R$ 0,00" styleClass="balance"/>
+                </HBox>
             </HBox>
         </VBox>
     </center>

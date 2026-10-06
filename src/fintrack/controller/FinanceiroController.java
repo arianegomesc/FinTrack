@@ -31,6 +31,27 @@ public class FinanceiroController {
         return t;
     }
 
+    // ── Atualizar ────────────────────────────────────────────────
+
+    public Transacao atualizar(int id, String descricao, double valor, TipoTransacao tipo, java.time.LocalDate data)
+            throws TransacaoNaoEncontradaException, DescricaoInvalidaException, ValorInvalidoException {
+
+        validarDescricao(descricao);
+        validarValor(valor);
+
+        Transacao antiga = buscarPorId(id);
+        int index = transacoes.indexOf(antiga);
+        Transacao atualizada = new Transacao(id, descricao.trim(), valor, tipo, data);
+        transacoes.set(index, atualizada);
+        return atualizada;
+    }
+
+    public Transacao atualizar(int id, String descricao, double valor, TipoTransacao tipo)
+            throws TransacaoNaoEncontradaException, DescricaoInvalidaException, ValorInvalidoException {
+        Transacao antiga = buscarPorId(id);
+        return atualizar(id, descricao, valor, tipo, antiga.getData());
+    }
+
     // ── Remover ──────────────────────────────────────────────────
 
     public Transacao remover(int id) throws TransacaoNaoEncontradaException {
