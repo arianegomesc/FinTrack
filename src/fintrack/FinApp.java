@@ -19,7 +19,7 @@ public class FinApp extends Application {
         URL stylesheet = Objects.requireNonNull(
                 FinApp.class.getResource("/fintrack/view/style.css"),
                 "Recurso CSS não encontrado: /fintrack/view/style.css");
-
+        
         FXMLLoader loader = new FXMLLoader(layout);
         Scene scene = new Scene(loader.load());
         scene.getStylesheets().add(stylesheet.toExternalForm());
