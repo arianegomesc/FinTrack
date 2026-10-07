@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TransacaoDAOTest {
-    private TransacaoDAO dao;
+    private fintrack.dao.TransacaoDAO dao;
 
     @BeforeEach
     void prepararBanco() throws SQLException {

@@ -58,7 +58,7 @@ FinTrack/
 
 ## 🛠️ Tecnologias
 
-- **Java 25**
+- **Java 21**
 - **JDK** (Java Development Kit)
 - **IntelliJ IDEA** (IDE)
 - Paradigma: **Orientação a Objetos (POO)**
@@ -68,7 +68,7 @@ FinTrack/
 ## ▶️ Como Executar
 
 ### Pré-requisitos
-- JDK 25 e Maven instalados
+- JDK 21 e Maven instalados
 
 ### Passos
 
