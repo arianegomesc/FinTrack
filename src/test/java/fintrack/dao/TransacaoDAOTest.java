@@ -18,7 +18,7 @@ class TransacaoDAOTest {
     @BeforeEach
     void prepararBanco() throws SQLException {
         System.setProperty("fintrack.db", "jdbc:sqlite::memory:");
-        dao = new TransacaoDAO();
+        dao = new fintrack.dao.TransacaoDAO();
         try (Connection conn = Conexao.abrir(); Statement st = conn.createStatement()) {
             st.executeUpdate("DELETE FROM transacoes");
         }

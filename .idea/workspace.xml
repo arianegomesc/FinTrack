@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7dc49dc-97ee-4378-9cac-e0e5214efa2c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fintrack/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fintrack/Launcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/fintrack/dao/TransacaoDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fintrack/dao/TransacaoDAOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/fintrack/FinApp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/fintrack/Main.class" beforeDir="false" />
@@ -38,61 +39,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0037655836472465795" />
-      <entry key="MS500" value="0.7285133632084794" />
-      <entry key="S2" value="4.41162106170146" />
-      <entry key="S5" value="6.724855702798981" />
-      <entry key="S10" value="7.771878283077974" />
-      <entry key="S30" value="8.56856178991906" />
-      <entry key="S60" value="8.782823827822227" />
-      <entry key="M2" value="9.13600618790317" />
-      <entry key="M5" value="16.241520550239514" />
-      <entry key="M10" value="38.2406547481721" />
-      <entry key="M15" value="58.43367432191833" />
-      <entry key="M30" value="95.55372114734926" />
-      <entry key="H1" value="125.06522155285901" />
-      <entry key="H2" value="143.8449649641179" />
-      <entry key="H4" value="154.46269851068502" />
-      <entry key="D1" value="164.0097533783408" />
-      <entry key="W1" value="165.71398155716162" />
+      <entry key="MS100" value="1.4343736127727449" />
+      <entry key="MS500" value="4.081869775578637" />
+      <entry key="S2" value="13.276491345484656" />
+      <entry key="S5" value="24.520430859470075" />
+      <entry key="S10" value="33.760367000576636" />
+      <entry key="S30" value="43.93654251641086" />
+      <entry key="S60" value="47.266552751121694" />
+      <entry key="M2" value="49.307863008084524" />
+      <entry key="M5" value="57.3026220309523" />
+      <entry key="M10" value="79.46300006123441" />
+      <entry key="M15" value="99.72675801061287" />
+      <entry key="M30" value="137.02685137407545" />
+      <entry key="H1" value="166.73278323673668" />
+      <entry key="H2" value="185.656777415235" />
+      <entry key="H4" value="196.36239248818276" />
+      <entry key="D1" value="205.9921045511256" />
+      <entry key="W1" value="207.71143654796904" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0000000000005695" />
-      <entry key="S60" value="1.0000007547488556" />
-      <entry key="M2" value="1.0008687628304604" />
-      <entry key="M5" value="1.0596431390645116" />
-      <entry key="M10" value="1.244219448579575" />
-      <entry key="M15" value="1.3907090739612467" />
-      <entry key="M30" value="1.6250672555503503" />
-      <entry key="H1" value="1.790611950042719" />
-      <entry key="H2" value="1.8891636238863567" />
-      <entry key="H4" value="1.942954730560463" />
-      <entry key="D1" value="1.9902582606358097" />
-      <entry key="W1" value="1.9986024773676883" />
+      <entry key="MS100" value="3.583425872253753E-37" />
+      <entry key="MS500" value="5.138775974616981E-8" />
+      <entry key="S2" value="0.01505618426578251" />
+      <entry key="S5" value="0.18667491768614713" />
+      <entry key="S10" value="0.43205892848794053" />
+      <entry key="S30" value="0.7559870011719629" />
+      <entry key="S60" value="0.869475785938062" />
+      <entry key="M2" value="0.9332665863982559" />
+      <entry key="M5" value="1.0304123690949727" />
+      <entry key="M10" value="1.226938239015875" />
+      <entry key="M15" value="1.3778018574718731" />
+      <entry key="M30" value="1.6175085252349601" />
+      <entry key="H1" value="1.7864427293053275" />
+      <entry key="H2" value="1.8869629990453272" />
+      <entry key="H4" value="1.9418227586453018" />
+      <entry key="D1" value="1.990064958521173" />
+      <entry key="W1" value="1.9985747458505725" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.012506925989521082" />
-      <entry key="MS500" value="1.020095621647528" />
-      <entry key="S2" value="5.09158727238965" />
-      <entry key="S5" value="7.573577785688378" />
-      <entry key="S10" value="8.691516594600706" />
-      <entry key="S30" value="9.540630301433401" />
-      <entry key="S60" value="9.768709191812892" />
-      <entry key="M2" value="10.129753979954664" />
-      <entry key="M5" value="17.29780413955693" />
-      <entry key="M10" value="39.48220745471065" />
-      <entry key="M15" value="59.82196591858492" />
-      <entry key="M30" value="97.1769800788331" />
-      <entry key="H1" value="126.85468879128716" />
-      <entry key="H2" value="145.7334794325101" />
-      <entry key="H4" value="156.4053069209603" />
-      <entry key="D1" value="165.99995065787428" />
-      <entry key="W1" value="167.71257523974768" />
+      <entry key="MS100" value="1.3475824131887673" />
+      <entry key="MS500" value="4.0313667744814285" />
+      <entry key="S2" value="13.239080741254174" />
+      <entry key="S5" value="24.620120667875785" />
+      <entry key="S10" value="34.10565678093803" />
+      <entry key="S30" value="44.64483946126157" />
+      <entry key="S60" value="48.10890544351904" />
+      <entry key="M2" value="50.226635125961714" />
+      <entry key="M5" value="58.32651732793465" />
+      <entry key="M10" value="80.68566496719852" />
+      <entry key="M15" value="101.10106492115338" />
+      <entry key="M30" value="138.642007947873" />
+      <entry key="H1" value="168.5178073775141" />
+      <entry key="H2" value="187.54295361289402" />
+      <entry key="H4" value="198.30379989450944" />
+      <entry key="D1" value="207.98209699094724" />
+      <entry key="W1" value="209.71000084997434" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -104,39 +105,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.test.java.fintrack in fintrack.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Capacitação Java/FinTrack&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FinApp.executor": "Run",
+    "Application.Launcher.executor": "Run",
+    "Application.Main.executor": "Run",
+    "JUnit.test.java.fintrack in fintrack.executor": "Run",
+    "KEY_CHAT_IN_TOOLWINDOW": "false",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/var/run/media/arianegomes/ARQUIVOS/Capacitação Java/FinTrack/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Launcher">
+    <configuration name="FinApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fintrack.FinApp" />
+      <module name="fintrack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fintrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fintrack.Launcher" />
       <module name="fintrack" />
@@ -216,6 +232,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.FinApp" />
         <item itemvalue="JUnit.test.java.fintrack in fintrack" />
       </list>
     </recent_temporary>
