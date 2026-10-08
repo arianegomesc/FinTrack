@@ -1,9 +1,0 @@
-.header { -fx-padding: 20px 24px; -fx-background-color: #17324d; }
-.header .label { -fx-text-fill: white; }
-.title { -fx-font-size: 28px; -fx-font-weight: bold; }
-.content { -fx-padding: 18px 24px; }
-.primary-button { -fx-background-color: #208c62; -fx-text-fill: white; }
-.balance { -fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: #17324d; }
-.income-label { -fx-font-size: 14px; -fx-font-weight: bold; -fx-text-fill: #208c62; }
-.expense-label { -fx-font-size: 14px; -fx-font-weight: bold; -fx-text-fill: #c0392b; }
-.summary-container { -fx-background-color: #f4f6f8; -fx-padding: 8px 16px; -fx-background-radius: 6px; -fx-border-color: #e0e4e8; -fx-border-radius: 6px; }
