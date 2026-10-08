@@ -6,21 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c7dc49dc-97ee-4378-9cac-e0e5214efa2c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fintrack/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fintrack/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fintrack/dao/TransacaoDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fintrack/dao/TransacaoDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/FinApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/controller/FinanceiroController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/dao/TransacaoDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/db/Conexao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/exception/DescricaoInvalidaException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/exception/TransacaoNaoEncontradaException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/exception/ValorInvalidoException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/model/TipoTransacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/model/Transacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/repository/RepositorioGenerico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/view/ConsoleView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fintrack/view/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +99,8 @@
     "Application.Main.executor": "Run",
     "JUnit.test.java.fintrack in fintrack.executor": "Run",
     "KEY_CHAT_IN_TOOLWINDOW": "false",
+    "Maven.fintrack [clean].executor": "Run",
+    "Maven.fintrack [compile].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -139,6 +128,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
   <component name="RunManager" selected="Application.Launcher">
     <configuration name="FinApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fintrack.FinApp" />
@@ -155,6 +149,19 @@
     </configuration>
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fintrack.Launcher" />
+      <module name="fintrack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fintrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fintrack.Main" />
       <module name="fintrack" />
       <extension name="coverage">
         <pattern>
@@ -232,6 +239,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.FinApp" />
         <item itemvalue="JUnit.test.java.fintrack in fintrack" />
       </list>
